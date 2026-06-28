@@ -1,0 +1,18 @@
+{
+  "name": "awo-hunt-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for the AWO (Alpha Wolves) Total Battle clan — slash commands + scheduled announcements off the live chest-score sheet.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/register.js"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^16.4.7"
+  }
+}
